@@ -61,3 +61,7 @@ The `HomographyRegressor` wraps a Vision Transformer with a regression head:
 2. The images are stacked and passed through the ViT backbone.
 3. A global average pooling is applied to the ViT tokens.
 4. A linear regressor outputs 8 values corresponding to the  displacements of the four patch corners.
+
+## Model Weights
+The weights can be downloaded [here](https://huggingface.co/hudsonmsb/deep_homography_vit/resolve/main/deep_homography_vit.pth).
+
